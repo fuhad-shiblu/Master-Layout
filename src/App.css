@@ -1,0 +1,81 @@
+*{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+}
+a{
+     text-decoration: none;
+}
+ul,ol{
+     list-style: none;
+}
+body{
+     overflow: hidden;
+}
+.fuhadShiblu_home{
+     animation: homeAnim .1s linear;
+}
+@keyframes homeAnim{
+     0%{
+          transform: scale(0);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
+.fuhadShiblu_about{
+     animation: aboAnim .1s linear;
+}
+@keyframes aboAnim{
+     0%{
+          transform: scale(0);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
+.fuhadShiblu_contact{
+     animation: contAnim .1s linear;
+}
+@keyframes contAnim{
+     0%{
+          transform: scale(0);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
+.fuhadShiblu_projects{
+     animation: projAnim .1s linear;
+}
+@keyframes projAnim{
+     0%{
+          transform: scale(0);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
+.fuhadShiblu_services{
+     animation: serAnim .1s linear;
+}
+@keyframes serAnim{
+     0%{
+          transform: scale(0);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
+.fuhadShiblu_works{
+     animation: worksAnim .1s linear;
+}
+@keyframes worksAnim{
+     0%{
+          transform: scale(0);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
